@@ -1,0 +1,43 @@
+/* Custom Colors */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap");
+.text-black {
+  color: #606161;
+}
+
+.text-blue {
+  color: #449CA6;
+}
+
+.text-gray {
+  color: #878f8f;
+}
+
+/* Mediascreens */
+/* Main font family */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  overflow-x: hidden;
+  height: auto;
+}
+
+.website__logo {
+  width: 250px;
+  height: auto;
+}
+
+.landing {
+  width: 100%;
+  height: 120vh;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+.navbar {
+  box-shadow: 0 6px 20px #dddddd;
+}

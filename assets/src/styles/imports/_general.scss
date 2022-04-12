@@ -14,3 +14,22 @@ body {
     overflow-x: hidden;
     height: auto;
 }
+
+.website__logo{
+    width: 250px;
+    height: auto;
+}
+
+.landing{
+    width: 100%;
+    height: 120vh;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+.navbar{
+    // background: transparent!important;
+    box-shadow: 0 6px 20px #dddddd;
+}
