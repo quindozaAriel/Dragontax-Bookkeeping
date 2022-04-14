@@ -15,6 +15,8 @@
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <!-- Landing Page CSS -->
     <link href="./assets/build/styles/home.css" rel="stylesheet">
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -52,13 +54,22 @@
             <div class="col">
                 <div class="landing">
                     <div class="container">
-                        <div class="row">
-                            <div class="col-6">
-                                <p>Focus on building your life, let us handle your finances</p>
+                        <div class="row h-100 d-flex align-items-center">
+                            <div class="col-md-7 col-lg-6 col-xl-7 z-5 d-flex flex-column justify-content-center align-items-md-start align-items-center" data-aos="fade-right">
+                                <p class="landing__tagline">Focus on building your life,<br> Let us handle your finances</p>
+                                <button class="landing__btn">Learn More</button>
                             </div>
                         </div>
                     </div>
+                    <div class="overlay_bg z-1"></div>
                 </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="" style="width:100%;height:100vh;"></div>
             </div>
         </div>
     </div>
@@ -66,6 +77,12 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <!-- Bootsrap 5 js bundle -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- General  -->
+    <script src="../assets/build/scripts/general.js"></script>
+    <!--  Credits:  Photo by <a href="https://unsplash.com/@austindistel?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Austin Distel</a> on <a href="https://unsplash.com/s/photos/client-meeting?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> -->
+   
 </body>
 
 </html>

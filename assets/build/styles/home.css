@@ -5,7 +5,7 @@
 }
 
 .text-blue {
-  color: #449CA6;
+  color: #1f7a85;
 }
 
 .text-gray {
@@ -24,14 +24,29 @@ body {
   height: auto;
 }
 
+.z-1 {
+  z-index: 1;
+}
+
+.z-2 {
+  z-index: 2;
+}
+
+.z-3 {
+  z-index: 3;
+}
+
+.z-4 {
+  z-index: 4;
+}
+
+.z-5 {
+  z-index: 5;
+}
+
 .website__logo {
   width: 250px;
   height: auto;
-}
-
-.landing {
-  width: 100%;
-  height: 120vh;
 }
 
 .navbar .navbar-collapse {
@@ -40,4 +55,72 @@ body {
 
 .navbar {
   box-shadow: 0 6px 20px #dddddd;
+}
+
+.landing {
+  width: 100%;
+  height: auto;
+  min-height: 70vh;
+  background-image: url("../images/landing.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  background-attachment: fixed;
+  padding-top: 107.55;
+}
+.landing .landing__tagline {
+  font-size: 29px;
+  color: #1f7a85;
+  text-align: center;
+}
+.landing .overlay_bg {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+  background: linear-gradient(to right, rgba(255, 243, 243, 0.84), rgba(255, 255, 255, 0.65));
+}
+.landing .landing__btn {
+  background: #1f7a85;
+  border: 0;
+  color: white;
+  padding: 12px 0 12px 0;
+  font-size: 19px;
+  box-shadow: 5px 5px 20px #ada4a4;
+  width: 150px;
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .landing .landing__tagline {
+    font-size: 36px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .landing .landing__tagline {
+    font-size: 40px;
+    text-align: left;
+  }
+  .landing .landing__btn {
+    width: 200px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .landing .landing__tagline {
+    font-size: 41px;
+    text-align: left;
+  }
+  .landing .landing__btn {
+    width: 200px;
+  }
+}
+@media (min-width: 1200px) {
+  .landing .landing__tagline {
+    font-size: 45px;
+    text-align: left;
+  }
+  .landing .landing__btn {
+    width: 200px;
+  }
 }

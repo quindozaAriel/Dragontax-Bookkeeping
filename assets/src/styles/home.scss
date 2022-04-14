@@ -1,1 +1,86 @@
 @import "imports/_general.scss";
+
+.landing {
+  width: 100%;
+  height: auto;
+  min-height: 70vh;
+  background-image: url("../images/landing.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  background-attachment: fixed;
+  padding-top: 107.55;
+  .landing__tagline {
+    font-size: 29px;
+    color: $main_color;
+    text-align: center;
+  }
+
+  .overlay_bg {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    background: linear-gradient(to right, rgb(255 243 243 / 84%), rgb(255 255 255 / 65%));
+    // background: linear-gradient(to right, #ffffffd6, #ffffff66);
+  }
+
+  .landing__btn {
+    background: $main_color;
+    border: 0;
+    color: white;
+    padding: 12px 0 12px 0;
+    font-size: 19px;
+    box-shadow: 5px 5px 20px #ada4a4;
+    width: 150px;
+  }
+}
+
+@include sm {
+  .landing {
+    .landing__tagline {
+      font-size: 36px;
+    }
+  }
+}
+
+@include md {
+  .landing {
+    .landing__tagline {
+      font-size: 40px;
+      text-align: left;
+    }
+    
+    .landing__btn {
+      width: 200px;
+    }
+  }
+}
+
+@include lg {
+  .landing {
+    .landing__tagline {
+      font-size: 41px;
+      text-align: left;
+    }
+    
+    .landing__btn {
+      width: 200px;
+    }
+  }
+}
+
+@include xl {
+  .landing {
+    .landing__tagline {
+      font-size: 45px;
+      text-align: left;
+    }
+    
+    .landing__btn {
+      width: 200px;
+    }
+  }
+}
