@@ -13,6 +13,15 @@ body {
     font-family: "Montserrat", sans-serif;
     overflow-x: hidden;
     height: auto;
+    color:$main_text;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    overflow: hidden;
 }
 
 .z-1 {
@@ -47,4 +56,93 @@ body {
 .navbar {
     // background: transparent!important;
     box-shadow: 0 6px 20px #dddddd;
+}
+
+footer {
+    width: 100vw;
+    height: auto;
+    background: #e5e7e8;
+    .links_container {
+        color: $main_text;
+
+        .section {
+            text-align: left;
+
+            a {
+                text-decoration: none;
+                color: $main_text;
+                font-weight: 600;
+                display: block;
+            }
+
+            .light_link {
+                font-weight: 400;
+                display: block;
+            }
+        }
+    }
+
+    .sub_footer {
+        width: 100%;
+        height: auto;
+        .footer_logo {
+            width: 300px;
+            height: 85px;
+            background-image: url("../images/footer_logo.png");
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center;
+            margin-bottom: 10px;
+        }
+
+        .remarks {
+            height: auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 12px;
+            background-color: $black;
+            color: white;
+            text-align: center;
+            font-weight: bold;
+
+            span {
+                margin: 0 20px 0 20px;
+                padding: 10px 0 10px 0;
+            }
+        }
+    }
+}
+
+@include xl {
+}
+
+@include lg {
+
+}
+
+@include md {
+}
+
+@include sm {
+    footer .sub_footer .remarks {
+        font-size: 10px;
+    }
+}
+
+@include xs {
+    footer .sub_footer {
+        .footer_logo {
+            width: 250px;
+            height: 70px;
+        }
+
+        .remarks {
+            font-size: 9px;
+
+            span {
+                margin: 0 5px 0 5px;
+            }
+        }
+    }
 }
