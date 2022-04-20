@@ -13,7 +13,7 @@ body {
     font-family: "Montserrat", sans-serif;
     overflow-x: hidden;
     height: auto;
-    color:$main_text;
+    color: $main_text;
 }
 
 html {
@@ -62,6 +62,11 @@ footer {
     width: 100vw;
     height: auto;
     background: #e5e7e8;
+
+    .footer_bk_logo {
+        width: 60%;
+    }
+
     .links_container {
         color: $main_text;
 
@@ -115,13 +120,27 @@ footer {
 }
 
 @include xl {
+    footer {
+        .footer_bk_logo {
+            width: 100%;
+        }
+    }
 }
 
 @include lg {
-
+    footer {
+        .footer_bk_logo {
+            width: 100%;
+        }
+    }
 }
 
 @include md {
+    footer {
+        .footer_bk_logo {
+            width: 100%;
+        }
+    }
 }
 
 @include sm {

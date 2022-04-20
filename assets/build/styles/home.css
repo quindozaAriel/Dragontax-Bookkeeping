@@ -71,6 +71,9 @@ footer {
   height: auto;
   background: #e5e7e8;
 }
+footer .footer_bk_logo {
+  width: 60%;
+}
 footer .links_container {
   color: #606161;
 }
@@ -116,6 +119,21 @@ footer .sub_footer .remarks span {
   padding: 10px 0 10px 0;
 }
 
+@media (min-width: 1200px) {
+  footer .footer_bk_logo {
+    width: 100%;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  footer .footer_bk_logo {
+    width: 100%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  footer .footer_bk_logo {
+    width: 100%;
+  }
+}
 @media (min-width: 576px) and (max-width: 767.98px) {
   footer .sub_footer .remarks {
     font-size: 10px;
@@ -385,7 +403,7 @@ body {
   }
 
   .inclusion__margin:nth-child(1) {
-    margin-top: 100px;
+    margin-top: 50px;
   }
 }
 @media (min-width: 1200px) {
@@ -439,6 +457,6 @@ body {
   }
 
   .inclusion__margin:nth-child(4) {
-    margin-bottom: 1 0px;
+    margin-bottom: 100px;
   }
 }

@@ -3,11 +3,11 @@
 <head>
     <title>Dragon Tax - Bookkeeping</title>
     <meta charset="UTF-8">
-    <!-- <meta name="title" content="Full service firm that offer Tax preparation and Bookkeeping in California's Bay Area">
-    <meta name="description" content="Tax preparation and Bookkeeping Firm in California">
+    <meta name="title" content="Full service firm that offer Bookkeeping and  Tax preparation in United State of America and Abroad.">
+    <meta name="description" content="Tax preparation and Bookkeeping Firm">
     <meta name="keywords" content="Tax Preparation,Bookkeeping, Small Business, Real Estate, Tax preparer in california, Dragon Tax is offering professional tax preparation, Bookkeeping company in california">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="robots" content="index, follow" /> -->
+    <meta name="robots" content="index, follow" />
     <link rel="icon" href="../assets/build/images/favicon.ico" type="image/gif" sizes="16x16">
     <!-- Bootsrap 5 CDN -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -168,16 +168,16 @@
     <footer>
         <div class="container">
             <div class="row links_container justify-content-between">
-                <div class="col-xl-3 col-lg-2 col-md-2 col-sm-6 col-6 section mt-5">
-                    <img src="../assets/build/images/bk_logo.svg" alt="Dragon Tax & Management Inc Bookkeeping Logo">
+                <div class="col-xl-3 col-lg-4 col-md-4 col-sm-12 col-12 section mt-5 d-flex justify-content-center align-items-md-start">
+                    <img src="../assets/build/images/bk_logo.svg" class="footer_bk_logo" alt="Dragon Tax & Management Inc Bookkeeping Logo">
                 </div>
-                <div class="col-xl-2 col-lg-2 col-md-2 col-sm-6 col-6 section mt-5">
+                <div class="col-xl-2 col-lg-4 col-md-3 col-sm-6 col-5 px-5 section mt-5">
                     <a href="http://www.dragontax.com/faq">Home</a>
                     <a href="http://www.dragontax.com/faq">Pricing</a>
                     <a href="http://www.dragontax.com/faq">Services</a>
                     <a href="http://www.dragontax.com/faq">Resources</a>
                 </div>
-                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6 section mt-5">
+                <div class="col-xl-3 col-lg-4 col-md-5 col-sm-6 col-7  section mt-5">
                     <a href="http://www.dragontax.com/contact-us">CONTACT US</a>
                     <p class="light_link">
                         San Mateo: <a href="tel:6503452604"> (650) 345-2604</a>
@@ -185,10 +185,6 @@
                         <span style="display:flex;flex-direction:row;">Email:&nbsp;<a class="text-blue" style="text-decoration:underline;" href="mailto:tax@dragontax.com">tax@dragontax.com</a></span>
                     </p>
                 </div>
-                <!-- <div class="col-xl-4 col-lg-2 col-md-2 col-sm-6 col-6 section mt-5">
-                    <a href="http://www.dragontax.com/">Dragontax</a>
-                    <p class="light_link">Dragon Tax is a full-service tax, accounting, consulting and management firm, servicing clients nationwide and internationally. With a team of tax professionals located across the U.S. who can assist in a wide variety of areas; including specialization in small businesses, real estate, highly compensated professionals and cross-border tax solutions.</p>
-                </div> -->
             </div>
         </div>
         <div class="container-fluid p-0">
