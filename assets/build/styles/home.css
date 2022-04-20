@@ -193,6 +193,10 @@ body {
   width: 150px;
 }
 
+.border-top {
+  border-top: 5px solid #1f7a85;
+}
+
 .banner {
   width: 100%;
   height: 10vh;

@@ -5,9 +5,11 @@ $request = $_SERVER['REQUEST_URI'];
 switch ($request) {
     case '/':
         require __DIR__ . '/pages/template/header.php';
+        require __DIR__ . '/pages/resource/home_js.php';
+        require __DIR__ . '/pages/template/sub_header.php';
         require __DIR__ . '/pages/home.php';
         require __DIR__ . '/pages/template/sub_footer.php';
-        require __DIR__ . '/pages/home_js.php';
+        require __DIR__ . '/pages/resource/home_js.php';
         require __DIR__ . '/pages/template/footer.php';
         break;
     case '':

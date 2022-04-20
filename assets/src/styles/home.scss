@@ -45,6 +45,10 @@ body {
   }
 }
 
+.border-top {
+  border-top: 5px solid $main_color;
+}
+
 .banner {
   width: 100%;
   height: 10vh;
@@ -82,69 +86,69 @@ body {
   justify-content: center;
   flex-direction: column;
   &__margin {
-      margin: 60px 0 60px 0;
+    margin: 60px 0 60px 0;
   }
 
   &__title {
-      font-size: 25px;
-      color: $main_color;
-      font-weight: 500;
-      text-align: center;
+    font-size: 25px;
+    color: $main_color;
+    font-weight: 500;
+    text-align: center;
   }
   &__detail {
-      text-align: center;
-      width: 90%;
-      margin-top: 10px;
-      color: $main_text;
+    text-align: center;
+    width: 90%;
+    margin-top: 10px;
+    color: $main_text;
   }
 
   &__image {
-      position: relative;
-      width: 100%;
-      height: 200px;
-      display: flex;
-      justify-content: center;
+    position: relative;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
 
-      &__bg {
-          width: 150px;
-          height: 150px;
-          background: url("../images/dot.svg");
-          position: absolute;
-          left: 0;
-          bottom: 0;
-      }
+    &__bg {
+      width: 150px;
+      height: 150px;
+      background: url("../images/dot.svg");
+      position: absolute;
+      left: 0;
+      bottom: 0;
+    }
 
-      &__fg--a {
-          @extend %full;
-          background: url("../images/image_1.jpg");
-          background-size: cover;
-          background-repeat: no-repeat;
-          background-position: top;
-      }
+    &__fg--a {
+      @extend %full;
+      background: url("../images/image_1.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: top;
+    }
 
-      &__fg--b {
-          @extend %full;
-          background: url("../images/image_2.jpg");
-          background-size: cover;
-          background-repeat: no-repeat;
-          background-position: center;
-      }
+    &__fg--b {
+      @extend %full;
+      background: url("../images/image_2.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
 
-      &__fg--c {
-          @extend %full;
-          background: url("../images/image_3.jpg");
-          background-size: cover;
-          background-repeat: no-repeat;
-          background-position: center;
-      }
+    &__fg--c {
+      @extend %full;
+      background: url("../images/image_3.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
 
-      &__fg--d {
-          @extend %full;
-          background: url("../images/image_4.jpg");
-          background-size: cover;
-          background-repeat: no-repeat;
-          background-position: center;
-      }
+    &__fg--d {
+      @extend %full;
+      background: url("../images/image_4.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
   }
 }
 
@@ -249,10 +253,9 @@ body {
     font-size: 16px;
   }
 
-  .description{
-    font-size:17px;
+  .description {
+    font-size: 17px;
   }
-  
 
   .inclusion {
     align-items: flex-start;
@@ -306,10 +309,9 @@ body {
     font-size: 18px;
   }
 
-  .description{
-    font-size:18px;
+  .description {
+    font-size: 18px;
   }
-  
 
   .inclusion {
     align-items: flex-start;

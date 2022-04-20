@@ -55,7 +55,6 @@
                     <div class="inclusion__image__fg--a" data-tilt></div>
                 </div>
             </div>
-            <!-- Photo by <a href="https://unsplash.com/@krakenimages?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">krakenimages</a> on <a href="https://unsplash.com/s/photos/business-owner?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> -->
         </div>
         <div class="row inclusion__margin" data-aos="zoom-in-up">
             <div class="col-md-6 col-lg-7 col-xl-7 mb-4 mb-md-0 mb-lg-0 mb-xl-0">
