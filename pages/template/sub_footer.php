@@ -14,9 +14,9 @@
                 <div class="col-xl-3 col-lg-4 col-md-5 col-sm-6 col-7  section mt-5">
                     <a href="http://www.dragontax.com/contact-us">CONTACT US</a>
                     <p class="light_link">
-                        San Mateo: <a href="tel:6503452604"> (650) 345-2604</a>
-                        San Francisco: <a href="tel:4158412725"> (415) 841-2725</a>
-                        <span style="display:flex;flex-direction:row;">Email:&nbsp;<a class="text-blue" style="text-decoration:underline;" href="mailto:tax@dragontax.com">tax@dragontax.com</a></span>
+                        San Mateo : <a href="tel:6503452604"> (650) 345-2604</a>
+                        San Francisco : <a href="tel:4158412725"> (415) 841-2725</a>
+                        <span style="display:flex;flex-direction:row;">Email :</span><a class="text-blue" style="text-decoration:underline;" href="mailto:tax@dragontax.com">tax@dragontax.com</a>
                     </p>
                 </div>
             </div>

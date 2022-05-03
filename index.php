@@ -5,7 +5,7 @@ $request = $_SERVER['REQUEST_URI'];
 switch ($request) {
     case '/':
         require __DIR__ . '/pages/template/header.php';
-        require __DIR__ . '/pages/resource/home_js.php';
+        require __DIR__ . '/pages/resource/home_css.php';
         require __DIR__ . '/pages/template/sub_header.php';
         require __DIR__ . '/pages/home.php';
         require __DIR__ . '/pages/template/sub_footer.php';
@@ -14,20 +14,26 @@ switch ($request) {
         break;
     case '':
         require __DIR__ . '/pages/template/header.php';
+        require __DIR__ . '/pages/resource/home_css.php';
+        require __DIR__ . '/pages/template/sub_header.php';
         require __DIR__ . '/pages/home.php';
         require __DIR__ . '/pages/template/sub_footer.php';
-        require __DIR__ . '/pages/home_js.php';
+        require __DIR__ . '/pages/resource/home_js.php';
         require __DIR__ . '/pages/template/footer.php';
         break;
     case '/home':
         require __DIR__ . '/pages/template/header.php';
+        require __DIR__ . '/pages/resource/home_css.php';
+        require __DIR__ . '/pages/template/sub_header.php';
         require __DIR__ . '/pages/home.php';
         require __DIR__ . '/pages/template/sub_footer.php';
-        require __DIR__ . '/pages/home_js.php';
+        require __DIR__ . '/pages/resource/home_js.php';
         require __DIR__ . '/pages/template/footer.php';
         break;
     case '/contact-us':
         require __DIR__ . '/pages/template/header.php';
+        require __DIR__ . '/pages/resource/contact_css.php';
+        require __DIR__ . '/pages/template/sub_header.php';
         require __DIR__ . '/pages/contact_us.php';
         require __DIR__ . '/pages/template/sub_footer.php';
         require __DIR__ . '/pages/template/footer.php';
