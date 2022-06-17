@@ -42,6 +42,15 @@ switch ($request) {
         require __DIR__ . '/pages/template/sub_footer.php';
         require __DIR__ . '/pages/template/footer.php';
         break;
+    case '/pricing':
+        $page = "pricing";
+        require __DIR__ . '/pages/template/header.php';
+        require __DIR__ . '/pages/resource/pricing_css.php';
+        require __DIR__ . '/pages/template/sub_header.php';
+        require __DIR__ . '/pages/pricing.php';
+        require __DIR__ . '/pages/template/sub_footer.php';
+        require __DIR__ . '/pages/template/footer.php';
+        break;
     default:
         http_response_code(404);
         require __DIR__ . '/pages/404.html';
