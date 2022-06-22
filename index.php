@@ -49,6 +49,7 @@ switch ($request) {
         require __DIR__ . '/pages/template/sub_header.php';
         require __DIR__ . '/pages/pricing.php';
         require __DIR__ . '/pages/template/sub_footer.php';
+        require __DIR__ . '/pages/resource/pricing_js.php';
         require __DIR__ . '/pages/template/footer.php';
         break;
     default:
