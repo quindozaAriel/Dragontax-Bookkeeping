@@ -50,7 +50,7 @@ footer {
 
 .pricing-banner {
     width: 100%;
-    height: 40vh;
+    height: 80vh;
     z-index: 20;
 }
 
@@ -58,7 +58,7 @@ footer {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin: 0 0 100px 0;
+    flex-direction: column;
     z-index: 20;
 }
 
@@ -76,13 +76,25 @@ footer {
 
 %pricing_card {
     position: relative;
-    width: 350px;
+    width: 90%;
     background: linear-gradient(135deg, #1691ba, #158385);
     color: white;
     border-radius: 8px;
     cursor: pointer;
     transition: 0.5s;
+    margin-bottom: 10%;
 }
+
+// %pricing_card {
+//     position: relative;
+//     width: 350px;
+//     background: linear-gradient(135deg, #1691ba, #158385);
+//     color: white;
+//     border-radius: 8px;
+//     cursor: pointer;
+//     transition: 0.5s;
+//     margin-bottom: 10%;
+// }
 
 .pricing_card_content {
     width: 100%;
@@ -90,28 +102,57 @@ footer {
     position: relative;
     display: flex;
     height: auto;
-    // justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 10%;
+    padding: 10% 0 10% 0;
     .pricing-label {
         font-size: 1.2em;
         font-weight: bold;
     }
 
     .pricing-price {
-        font-size: 3em;
+        font-size: 2.5em;
         font-weight: bold;
     }
 
     .pricing-per {
         line-height: 0;
+        font-size: 0.8em;
     }
 
     .pricing-perks {
-        font-size: 15px;
+        font-size: 13px;
     }
 }
+
+// .pricing_card_content {
+//     width: 100%;
+//     height: 100%;
+//     position: relative;
+//     display: flex;
+//     height: auto;
+//     // justify-content: center;
+//     align-items: center;
+//     flex-direction: column;
+//     padding: 10%;
+//     .pricing-label {
+//         font-size: 1.2em;
+//         font-weight: bold;
+//     }
+
+//     .pricing-price {
+//         font-size: 3em;
+//         font-weight: bold;
+//     }
+
+//     .pricing-per {
+//         line-height: 0;
+//     }
+
+//     .pricing-perks {
+//         font-size: 15px;
+//     }
+// }
 
 .pricing_card--basic {
     @extend %pricing_card;
@@ -119,24 +160,23 @@ footer {
 
 .pricing_card--standard {
     @extend %pricing_card;
-    margin: 0 5% 0 5%;
 }
 
 .pricing_card--premium {
     @extend %pricing_card;
 }
 
-.review_content{
+.review_content {
     position: relative;
     z-index: 20;
 }
 
-.heading-color{
+.heading-color {
     color: #0f7074;
 }
 
 .review_card {
-    width: 50%;
+    width: 90%;
     height: auto;
     background: red;
     border-radius: 8px;
@@ -150,15 +190,191 @@ footer {
     padding: 20px 50px 20px 50px;
 }
 
-.review_detail{
-    font-size:14px;
+// .review_card {
+//     width: 50%;
+//     height: auto;
+//     background: red;
+//     border-radius: 8px;
+//     position: relative;
+//     z-index: 20;
+//     background: linear-gradient(135deg, #fcfeff, #f3fbff);
+//     box-shadow: 6px 6px 20px #0000005c;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     padding: 20px 50px 20px 50px;
+// }
+
+.review_detail {
+    font-size: 12px;
     font-style: italic;
-    color:#898989;
+    color: #898989;
     padding: 5%;
     text-align: center;
 }
 
-.reviewer{
-    // font-weight: 200;
+// .review_detail {
+//     font-size: 14px;
+//     font-style: italic;
+//     color: #898989;
+//     padding: 5%;
+//     text-align: center;
+// }
+
+.reviewer {
     font-style: italic;
+    margin-top: 10px;
+}
+
+@include sm {
+    .pricing-banner {
+        height: 60vh;
+    }
+
+    %pricing_card {
+        width: 350px;
+    }
+
+    .pricing_card_content {
+        padding: 8% 0 8% 0;
+        .pricing-label {
+            font-size: 1.4em;
+        }
+
+        .pricing-price {
+            font-size: 3em;
+        }
+
+        .pricing-per {
+            font-size: 1em;
+        }
+
+        .pricing-perks {
+            font-size: 14px;
+        }
+    }
+
+    .review_detail {
+        font-size: 13px;
+        padding: 5%;
+    }
+}
+
+@include md {
+    .pricing-banner {
+        height: 40vh;
+    }
+
+    %pricing_card {
+        width: 350px;
+    }
+
+    .pricing_card_content {
+        padding: 10% 8% 10% 8%;
+        .pricing-label {
+            font-size: 1.5em;
+        }
+
+        .pricing-price {
+            font-size: 3em;
+        }
+
+        .pricing-per {
+            font-size: 1em;
+        }
+
+        .pricing-perks {
+            font-size: 16px;
+        }
+    }
+
+    .review_detail {
+        font-size: 14px;
+        padding: 5%;
+    }
+}
+
+@include lg {
+    .pricing_card_container {
+        flex-direction: row;
+    }
+
+    .pricing-banner {
+        height: 45vh;
+    }
+
+    %pricing_card {
+        width: 250px;
+        margin-bottom: 5%;
+    }
+
+    .pricing_card_content {
+        padding: 10% 8% 10% 8%;
+        .pricing-label {
+            font-size: 1em;
+        }
+
+        .pricing-price {
+            font-size: 2em;
+        }
+
+        .pricing-per {
+            font-size: 0.7em;
+        }
+
+        .pricing-perks {
+            font-size: 13px;
+        }
+    }
+
+    .review_card {
+        width: 70%;
+    }
+
+    .review_detail {
+        font-size: 14px;
+        padding: 5%;
+    }
+}
+
+@include xl {
+    .pricing-banner {
+        height: 40vh;
+    }
+
+    .pricing_card_container {
+        flex-direction: row;
+        margin: 0 0 100px 0;
+    }
+
+    %pricing_card {
+        width: 350px;
+        margin-bottom: 0;
+    }
+
+    .pricing_card_content {
+        padding: 10%;
+        .pricing-label {
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+
+        .pricing-price {
+            font-size: 3em;
+            font-weight: bold;
+        }
+
+        .pricing-perks {
+            font-size: 16px;
+        }
+    }
+
+    .review_card {
+        width: 60%;
+    }
+
+    .review_detail {
+        font-size: 15px;
+        padding: 5%;
+    }
 }
