@@ -1,7 +1,6 @@
 <div class="contact-bg">
     <div class="map"></div>
 </div>
-
 <div class="container">
     <div class="row ">
         <div class="col d-flex flex-row justify-content-center p-5">

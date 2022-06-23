@@ -152,15 +152,10 @@ footer .sub_footer .remarks span {
     margin: 0 5px 0 5px;
   }
 }
-.navbar {
-  box-shadow: 0 20px 20px rgba(82, 74, 74, 0.3294117647);
-}
-
 .contact-bg {
-  height: 60vh;
+  height: 100%;
   width: 100%;
   position: absolute;
-  background: #1f7a85;
   top: 0;
   display: flex;
   align-items: flex-start;
@@ -174,11 +169,11 @@ footer .sub_footer .remarks span {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  opacity: 0.4;
+  opacity: 0.3;
 }
 
 .contact-clipart {
-  width: 100%;
+  width: 80%;
 }
 
 .contact__card {
@@ -187,10 +182,10 @@ footer .sub_footer .remarks span {
   height: auto;
   min-height: 500px;
   padding: 5% 1% 5% 1%;
-  background: white;
-  box-shadow: 14px 8px 20px rgba(0, 0, 0, 0.2392156863);
+  background: linear-gradient(135deg, #e4f8ff, #a8cacb);
+  box-shadow: 8px 8px 20px rgba(40, 110, 112, 0.38);
   border-left: 1px solid #e7e7e7;
-  border-radius: 15px;
+  border-radius: 10px;
 }
 .contact__card .contact-information {
   display: flex;
@@ -219,11 +214,15 @@ footer .sub_footer .remarks span {
   .contact__card {
     width: 100%;
   }
+
+  .contact-clipart {
+    width: 70%;
+  }
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
   .contact__card {
     padding: 5%;
-    width: 100%;
+    width: 80%;
   }
 
   .contact-icon {
@@ -233,12 +232,12 @@ footer .sub_footer .remarks span {
   }
 
   .contact-clipart {
-    width: 60%;
+    width: 50%;
   }
 }
 @media (min-width: 992px) and (max-width: 1199.98px) {
   .contact__card {
-    width: 90%;
+    width: 60%;
     padding: 5%;
   }
 
@@ -249,13 +248,12 @@ footer .sub_footer .remarks span {
   }
 
   .contact-clipart {
-    width: 60%;
+    width: 50%;
   }
 }
 @media (min-width: 1200px) {
   .contact__card {
-    margin-top: 150px;
-    width: 70%;
+    width: 50%;
     padding: 5%;
   }
 
@@ -266,6 +264,6 @@ footer .sub_footer .remarks span {
   }
 
   .contact-clipart {
-    width: 60%;
+    width: 50%;
   }
 }
