@@ -11,19 +11,16 @@
             <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                 <ul class="navbar-nav mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link nav-link-custom <?= (($page == 'home') ? 'active' : '')?>" aria-current="page" href="#">Home</a>
+                        <a class="nav-link nav-link-custom <?= (($page == 'home') ? 'active' : '')?>" aria-current="page" href="http://bk:8001">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link nav-link-custom <?= (($page == 'pricing') ? 'active' : '')?>" href="#">Pricing</a>
+                        <a class="nav-link nav-link-custom <?= (($page == 'pricing') ? 'active' : '')?>" href="http://bk:8001/pricing">Pricing</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link nav-link-custom <?= (($page == 'services') ? 'active' : '')?>" href="#">Services</a>
+                        <a class="nav-link nav-link-custom <?= (($page == 'our_service') ? 'active' : '')?>" href="http://bk:8001/our-service">Our Service</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link nav-link-custom  <?= (($page == 'resources') ? 'active' : '')?>" href="#">Resources</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link nav-link-custom <?= (($page == 'contact_us') ? 'active' : '')?>"  href="#">Contact Us</a>
+                        <a class="nav-link nav-link-custom <?= (($page == 'contact_us') ? 'active' : '')?>"  href="http://bk:8001/contact-us">Contact Us</a>
                     </li>
                 </ul>
             </div>
