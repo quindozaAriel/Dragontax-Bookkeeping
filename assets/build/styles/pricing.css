@@ -235,6 +235,7 @@ footer {
   cursor: pointer;
   transition: 0.5s;
   margin-bottom: 10%;
+  transform-style: preserve-3d;
 }
 
 .pricing_card_content {
@@ -246,6 +247,7 @@ footer {
   align-items: center;
   flex-direction: column;
   padding: 10% 0 10% 0;
+  transform: translateZ(20px);
 }
 .pricing_card_content .pricing-label {
   font-size: 1.2em;
@@ -331,28 +333,32 @@ footer {
   }
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
+  .pricing_card_container {
+    flex-direction: row;
+  }
+
   .pricing-banner {
     height: 40vh;
   }
 
   .pricing_card--basic, .pricing_card--standard, .pricing_card--premium {
-    width: 350px;
+    width: 200px;
   }
 
   .pricing_card_content {
-    padding: 10% 8% 10% 8%;
+    padding: 8% 0 8% 0;
   }
   .pricing_card_content .pricing-label {
-    font-size: 1.5em;
+    font-size: 0.9em;
   }
   .pricing_card_content .pricing-price {
-    font-size: 3em;
+    font-size: 2.2em;
   }
   .pricing_card_content .pricing-per {
-    font-size: 1em;
+    font-size: 0.7em;
   }
   .pricing_card_content .pricing-perks {
-    font-size: 16px;
+    font-size: 12px;
   }
 
   .review_detail {
@@ -375,7 +381,7 @@ footer {
   }
 
   .pricing_card_content {
-    padding: 10% 8% 10% 8%;
+    padding: 10% 5% 10% 5%;
   }
   .pricing_card_content .pricing-label {
     font-size: 1em;

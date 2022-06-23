@@ -19,7 +19,7 @@
                     <span class="pricing-price">$199</span>
                     <span class="pricing-per">per month</span>
                     <div class="pricing-perks container-fluid mt-4">
-                        <div class="row my-3 my-lg-2 my-xl-3">
+                        <div class="row my-3 my-md-2 my-lg-2 my-xl-3">
                             <div class="col-2 d-flex justify-content-center align-items-center">
                                 <i class="fa fa-check-circle"></i>
                             </div>
@@ -27,7 +27,7 @@
                                 Monthly bookkeeping
                             </div>
                         </div>
-                        <div class="row my-3 my-lg-2 my-xl-3">
+                        <div class="row my-3 my-md-2 my-lg-2 my-xl-3">
                             <div class="col-2 d-flex justify-content-center align-items-center">
                                 <i class="fa fa-check-circle"></i>
                             </div>
@@ -44,7 +44,7 @@
                     <span class="pricing-price">$499</span>
                     <span class="pricing-per">per month</span>
                     <div class="pricing-perks container-fluid mt-4">
-                        <div class="row my-3 my-lg-2 my-xl-3">
+                        <div class="row my-3 my-md-2 my-lg-2 my-xl-3">
                             <div class="col-2 d-flex justify-content-center align-items-center">
                                 <i class="fa fa-check-circle"></i>
                             </div>
@@ -52,7 +52,7 @@
                                 Monthly bookkeeping
                             </div>
                         </div>
-                        <div class="row my-3 my-lg-2 my-xl-3">
+                        <div class="row my-3 my-md-2 my-lg-2 my-xl-3">
                             <div class="col-2 d-flex justify-content-center align-items-center">
                                 <i class="fa fa-check-circle"></i>
                             </div>
@@ -60,7 +60,7 @@
                                 Dedicated bookkeeping team
                             </div>
                         </div>
-                        <div class="row my-3 my-lg-2 my-xl-3">
+                        <div class="row my-3 my-md-2 my-lg-2 my-xl-3">
                             <div class="col-2 d-flex justify-content-center align-items-center">
                                 <i class="fa fa-check-circle"></i>
                             </div>
@@ -68,7 +68,7 @@
                                 Year-end tax ready financial statements
                             </div>
                         </div>
-                        <div class="row my-3 my-lg-2 my-xl-3">
+                        <div class="row my-3 my-md-2 my-lg-2 my-xl-3">
                             <div class="col-2 d-flex justify-content-center align-items-center">
                                 <i class="fa fa-check-circle"></i>
                             </div>
@@ -85,7 +85,7 @@
                     <span class="pricing-price">$999</span>
                     <span class="pricing-per">per month</span>
                     <div class="pricing-perks container-fluid mt-4">
-                        <div class="row my-3 my-lg-2 my-xl-3">
+                        <div class="row my-3 my-md-2 my-lg-2 my-xl-3">
                             <div class="col-2 d-flex justify-content-center align-items-center">
                                 <i class="fa fa-check-circle"></i>
                             </div>
@@ -93,7 +93,7 @@
                                 One-on-one income tax consultations
                             </div>
                         </div>
-                        <div class="row my-3 my-lg-2 my-xl-3">
+                        <div class="row my-3 my-md-2 my-lg-2 my-xl-3">
                             <div class="col-2 d-flex justify-content-center align-items-center">
                                 <i class="fa fa-check-circle"></i>
                             </div>
@@ -101,7 +101,7 @@
                                 Unlimited income tax support
                             </div>
                         </div>
-                        <div class="row my-3 my-lg-2 my-xl-3">
+                        <div class="row my-3 my-md-2 my-lg-2 my-xl-3">
                             <div class="col-2 d-flex justify-content-center align-items-center">
                                 <i class="fa fa-check-circle"></i>
                             </div>
@@ -109,7 +109,7 @@
                                 Annual income tax filing for businesses (Partnerships, S Corps, C Corps)
                             </div>
                         </div>
-                        <div class="row my-3 my-lg-2 my-xl-3">
+                        <div class="row my-3 my-md-2 my-lg-2 my-xl-3">
                             <div class="col-2 d-flex justify-content-center align-items-center">
                                 <i class="fa fa-check-circle"></i>
                             </div>
@@ -122,7 +122,7 @@
             </div>
         </div>
     </div>
-    <div class="row my-5 review_content">
+    <div class="row my-5 mt-md-1 mb-md-5 review_content">
         <div class="col-12 text-center mb-5">
             <h1 class="heading-color">WHAT CLIENTS ARE SAYING</h1>
             <label>TESTIMONIALS</label>
