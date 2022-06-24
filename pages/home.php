@@ -20,7 +20,7 @@
     <div class="row">
         <div class="col p-0 m-0">
             <div class="banner p-5">
-                <p class="m-0"> Visit our official website <a href="http://www.dragontax.com/">www.dragontax.com</a> for more information about Dragon Tax.</p>
+                <p class="m-0"> Visit our main website <a href="http://www.dragontax.com/">www.dragontax.com</a> for more information about Dragon Tax.</p>
             </div>
         </div>
     </div>
@@ -35,7 +35,7 @@
 </div>
 <div class="section__inclusion">
     <div class="container">
-        <div class="row inclusion__margin" data-aos="zoom-in-up">
+        <div class="row inclusion__margin">
             <div class="col-12 mb-4 d-block d-sm-block d-md-none d-lg-none d-xl-none">
                 <div class="inclusion__image" data-aos="zoom-in-up">
                     <div class="inclusion__image__bg"></div>
@@ -43,7 +43,7 @@
                 </div>
             </div>
             <div class="col-md-6 col-lg-5 col-xl-5">
-                <div class="inclusion" data-aos="zoom-in-up">
+                <div class="inclusion">
                     <div class="inclusion__title">Focus on your Business Growth</div>
                     <div class="inclusion__detail">Our bookkeeper can undertake all important activities regarding bookkeeping process on your behalf so that you get more time and will be able to focus on the core areas to grow your business.
                     </div>
@@ -56,7 +56,7 @@
                 </div>
             </div>
         </div>
-        <div class="row inclusion__margin" data-aos="zoom-in-up">
+        <div class="row inclusion__margin">
             <div class="col-md-6 col-lg-7 col-xl-7 mb-4 mb-md-0 mb-lg-0 mb-xl-0">
                 <div class="inclusion__image" data-aos="zoom-in-up">
                     <div class="inclusion__image__bg"></div>
@@ -64,7 +64,7 @@
                 </div>
             </div>
             <div class="col-md-6 col-lg-5 col-xl-5">
-                <div class="inclusion" data-aos="zoom-in-up">
+                <div class="inclusion">
                     <div class="inclusion__title">Be Prepared for Tax Season</div>
                     <div class="inclusion__detail">
                         We help our clients run their businesses more financially efficient by preparing their books of accounts, tax returns and keeping their financial records organized to ensure that books of accounts are up to date, and there will be no stress during the tax season. Our bookkeeper ensures that we maintain tax-ready financial statements and trial balances. This also means that you will save more money and maximize your tax deductions.
@@ -80,7 +80,7 @@
                 </div>
             </div>
             <div class="col-md-6 col-lg-5 col-xl-5">
-                <div class="inclusion" data-aos="zoom-in-up">
+                <div class="inclusion">
                     <div class="inclusion__title">Expertise on your side</div>
                     <div class="inclusion__detail">
                         We're not just bookkeepers. We've got your back. Our experts use the best practices and have the appropriate skills necessary to make sure all your books are handled properly, making it possible for you to focus on your daily tasks and responsibilities, while we take care of the books.
@@ -102,7 +102,7 @@
                 </div>
             </div>
             <div class="col-md-6 col-lg-5 col-xl-5">
-                <div class="inclusion" data-aos="zoom-in-up">
+                <div class="inclusion">
                     <div class="inclusion__title">Clearer view of your Business Finances</div>
                     <div class="inclusion__detail">
                         Our Bookkeeping service provides a comprehensive view of your business’ finances which is not easy to achieve on a self-run basis. Our professional bookkeeper will get a clear view of your financial statements so that you can make informed decisions and also simplify transactions for you, which makes it easier for you to manage your business’s finances.
