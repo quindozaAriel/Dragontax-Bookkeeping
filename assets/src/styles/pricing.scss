@@ -50,7 +50,7 @@ footer {
 
 .pricing-banner {
     width: 100%;
-    height: 80vh;
+    height:500px;
     z-index: 20;
 }
 
@@ -166,10 +166,6 @@ footer {
 }
 
 @include sm {
-    .pricing-banner {
-        height: 60vh;
-    }
-
     %pricing_card {
         width: 350px;
     }
@@ -205,7 +201,7 @@ footer {
     }
 
     .pricing-banner {
-        height: 40vh;
+        height: 400px;
     }
 
     %pricing_card {
@@ -243,7 +239,7 @@ footer {
     }
 
     .pricing-banner {
-        height: 45vh;
+        height: 400px;
     }
 
     %pricing_card {
@@ -282,7 +278,7 @@ footer {
 
 @include xl {
     .pricing-banner {
-        height: 40vh;
+        height: 400px;
     }
 
     .pricing_card_container {

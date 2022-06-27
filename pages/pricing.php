@@ -122,7 +122,7 @@
             </div>
         </div>
     </div>
-    <div class="row my-5 mt-md-1 mb-md-5 review_content">
+    <div class="row my-5 mt-md-5 mb-md-5 review_content">
         <div class="col-12 text-center mb-5">
             <h1 class="heading-color">WHAT CLIENTS ARE SAYING</h1>
             <label>TESTIMONIALS</label>
