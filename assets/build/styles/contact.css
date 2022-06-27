@@ -63,7 +63,7 @@ body {
 }
 
 .navbar {
-  box-shadow: 0 6px 20px #dddddd;
+  box-shadow: 0 10px 20px 10px rgba(90, 97, 98, 0.1882352941);
   transition: 0.5s;
 }
 
