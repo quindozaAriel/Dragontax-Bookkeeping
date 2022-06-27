@@ -167,6 +167,8 @@ body {
   position: relative;
   background-attachment: fixed;
   overflow: hidden;
+  display: flex;
+  justify-content: center;
 }
 .landing .landing__tagline {
   font-size: 29px;
@@ -214,8 +216,8 @@ body {
 }
 
 .inclusion__image__fg--d, .inclusion__image__fg--c, .inclusion__image__fg--b, .inclusion__image__fg--a {
-  width: 585px;
-  height: 400px;
+  width: 80%;
+  height: 100%;
   box-shadow: 10px 10px 20px rgba(128, 128, 128, 0.568627451);
   position: absolute;
 }

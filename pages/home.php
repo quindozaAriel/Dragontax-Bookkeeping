@@ -27,7 +27,7 @@
 </div>
 <div class="container-fluid">
     <div class="row justify-content-center d-flex">
-        <div class="col col-lg-10 col-xl-8 p-5 mt-xl-5 mt-lg-5 mt-md-5 d-flex flex-column justify-content-center text-center">
+        <div class="col col-lg-10 col-xl-8 p-5 pb-0 mt-xl-5 mt-lg-5 mt-md-5 d-flex flex-column justify-content-center text-center">
             <h1 class="text-blue">Our Bookkeeping</h1>
             <p class="description">We are dedicated to helping you increase your business efficiency - and saving you time. No more worrying about late payments or needing someone to help you out when the accounting system fails. Let us handle your business finances - so you can focus on building your life.  </p>
         </div>
