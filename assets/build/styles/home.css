@@ -214,8 +214,8 @@ body {
 }
 
 .inclusion__image__fg--d, .inclusion__image__fg--c, .inclusion__image__fg--b, .inclusion__image__fg--a {
-  width: 80%;
-  height: 100%;
+  width: 585px;
+  height: 400px;
   box-shadow: 10px 10px 20px rgba(128, 128, 128, 0.568627451);
   position: absolute;
 }
