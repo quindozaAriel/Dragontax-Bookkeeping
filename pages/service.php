@@ -40,7 +40,7 @@
         </div>
         <div class="col-12 col-md-4">
             <div class="works_card px-5 pb-2 p-md-0 px-md-1 px-lg-2 px-xl-3">
-                <img class="work-clipart" src="../assets/build/svgs/deliver.svg" alt="What we do clipart" data-aos="fade-left"> 
+                <img class="work-clipart" src="../assets/build/svgs/deliver.svg" alt="What we do clipart" data-aos="fade-left">
                 <label>We deliver your tax-ready financials</label>
                 <p>
                     We help you make sense of your company’s finances. Track business health with monthly financial reporting, providing insight into what drives business performance. At tax time, we send a package with everything you need to file.
@@ -55,6 +55,20 @@
         <div class="row h-100">
             <div class="col d-flex justify-content-center align-items-center">
                 <span class="section__b__banner text-center text-white z-5 px-1">Smart Business Solutions That Make A Difference.</span>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="section__contact">
+    <div class="section__contact__overlay z-1"></div>
+    <div class="container">
+        <div class="row h-100 d-flex justify-content-center align-items-center">
+            <div class="col col-lg-10 col-xl-8 d-flex justify-content-center align-items-center flex-column text-center z-5 px-5">
+                <h1>Join numerous satisfied small business owners who depend on <span class="text-blue">Dragon Tax</span> with their books</h1>
+                <p>
+                    We know that your day is full of important tasks, so we'll save you time, money and headaches! Just contact us and let's get started!
+                </p>
+                <a class="section__contact__btn" href="./contact-us">Contact Us</a>
             </div>
         </div>
     </div>

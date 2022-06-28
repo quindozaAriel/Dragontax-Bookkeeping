@@ -236,6 +236,44 @@ footer .sub_footer .remarks span {
   background: rgba(98, 112, 114, 0.75);
 }
 
+.section__contact {
+  width: 100%;
+  height: auto;
+  background: linear-gradient(to bottom, #dfeeeb, #dfeeeb);
+  position: relative;
+  height: 400px;
+}
+.section__contact h1 {
+  font-size: 21px;
+  font-weight: 600;
+}
+.section__contact__overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url("../images/geo.png");
+  background-size: cover;
+  opacity: 0.5;
+}
+.section__contact__btn {
+  background: #1f7a85;
+  border: 0;
+  color: white;
+  padding: 5px 0 5px 0;
+  font-size: 19px;
+  box-shadow: 5px 5px 15px rgba(82, 78, 78, 0.4901960784);
+  width: 150px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.section__contact__btn:hover {
+  background: #3b6b70;
+  color: white;
+}
+
 @media (min-width: 576px) and (max-width: 767.98px) {
   .work-clipart {
     width: 220px;
@@ -278,6 +316,13 @@ footer .sub_footer .remarks span {
   .section__b__banner {
     font-size: 23px;
   }
+
+  .section__contact__btn {
+    padding: 8px 0 8px 0;
+  }
+  .section__contact h1 {
+    font-size: 23px;
+  }
 }
 @media (min-width: 992px) and (max-width: 1199.98px) {
   .section__a {
@@ -311,6 +356,14 @@ footer .sub_footer .remarks span {
   .section__b__banner {
     font-size: 29px;
   }
+
+  .section__contact__btn {
+    padding: 12px 0 12px 0;
+    width: 180px;
+  }
+  .section__contact h1 {
+    font-size: 26px;
+  }
 }
 @media (min-width: 1200px) {
   .section__a {
@@ -343,5 +396,13 @@ footer .sub_footer .remarks span {
   }
   .section__b__banner {
     font-size: 35px;
+  }
+
+  .section__contact__btn {
+    padding: 12px 0 12px 0;
+    width: 180px;
+  }
+  .section__contact h1 {
+    font-size: 26px;
   }
 }
