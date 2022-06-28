@@ -16,7 +16,7 @@
 <div class="container py-5">
     <div class="row">
         <div class="col d-flex justify-content-center">
-            <h1><b>How We Work</b></h1>
+            <h1>How We Work</h1>
         </div>
     </div>
     <div class="row">
@@ -48,7 +48,41 @@
             </div>
         </div>
     </div>
+    <center>
+        <hr class="my-5 w-50">
+    </center>
+    <div class="row">
+        <div class="col-12 d-flex flex-column justify-content-center align-items-center">
+            <h1>Core Features</h1>
+            <p class="text-center feature__description px-3">Dragon Tax services allow businesses to focus on what’s important—growing their business and meeting the needs of their customers. Our team of experienced bookkeeping professionals can help you manage your business finances and track income, expenses, and cash flow while staying compliant with the latest tax laws, regulations, and best practices.</p>
+        </div>
+        <div class="col-12 col-md-4">
+            <div class="feature__card my-5" data-aos="fade-up">
+                <img src="../assets/build/images/feature_a.jpg" alt="Professional Image">
+                <label>Hands-on Professional Support</label>
+                <p class="px-3">You’ll be given a dedicated account holder to support you and help manage your bookkeeping needs.</p>
+                <a href="">Learn more</a>
+            </div>
+        </div>
+        <div class="col-12 col-md-4">
+            <div class="feature__card my-5" data-aos="fade-up">
+                <img src="../assets/build/images/feature_b.jpg" alt="Professional Image">
+                <label>Tax Season Readiness</label>
+                <p class="px-3">Our team of accountants and bookkeepers are experts at taking care of your tax-ready financials. We provide excellent support for your business tax needs.</p>
+                <a href="">Learn more</a>
+            </div>
+        </div>
+        <div class="col-12 col-md-4">
+            <div class="feature__card my-5" data-aos="fade-up">
+                <img src="../assets/build/images/feature_c.jpg" alt="Professional Image">
+                <label>Robust Financial Reporting</label>
+                <p class="px-3">Efficiently manage your business finances with a highly detailed, robust financial report.</p>
+                <a href="">Learn more</a>
+            </div>
+        </div>
+    </div>
 </div>
+
 <div class="section__b">
     <div class="section__b__overlay z-1"></div>
     <div class="container">

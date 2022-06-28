@@ -274,6 +274,50 @@ footer .sub_footer .remarks span {
   color: white;
 }
 
+.feature__description {
+  font-size: 14px;
+}
+
+.feature__card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.feature__card img {
+  width: 80%;
+  border-top: 15px solid #1f7a85;
+  border-left: 15px solid #1f7a85;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  margin-bottom: 5%;
+  box-shadow: 0 0 20px 10px rgba(128, 128, 128, 0.3490196078);
+}
+.feature__card label {
+  text-align: center;
+  font-weight: 600;
+  font-size: 17px;
+}
+.feature__card p {
+  text-align: center;
+  font-size: 14px;
+}
+.feature__card a {
+  background: #1f7a85;
+  border: 0;
+  color: white;
+  padding: 5px 20px 5px 20px;
+  box-shadow: 5px 5px 15px rgba(82, 78, 78, 0.4901960784);
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.5s;
+  text-align: center;
+}
+.feature__card a:hover {
+  background: #3b6b70;
+  color: white;
+}
+
 @media (min-width: 576px) and (max-width: 767.98px) {
   .work-clipart {
     width: 220px;
@@ -282,6 +326,10 @@ footer .sub_footer .remarks span {
 
   .section__b__banner {
     font-size: 21px;
+  }
+
+  .feature__card img {
+    width: 60%;
   }
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -322,6 +370,22 @@ footer .sub_footer .remarks span {
   }
   .section__contact h1 {
     font-size: 23px;
+  }
+
+  .feature__card img {
+    width: 80%;
+    border-top: 10px solid #1f7a85;
+    border-left: 10px solid #1f7a85;
+  }
+  .feature__card label {
+    font-size: 16px;
+    margin-bottom: 5%;
+  }
+  .feature__card p {
+    font-size: 12px;
+  }
+  .feature__card a {
+    font-size: 13px;
   }
 }
 @media (min-width: 992px) and (max-width: 1199.98px) {
@@ -364,6 +428,20 @@ footer .sub_footer .remarks span {
   .section__contact h1 {
     font-size: 26px;
   }
+
+  .feature__card img {
+    width: 80%;
+  }
+  .feature__card label {
+    font-size: 16px;
+    margin-bottom: 5%;
+  }
+  .feature__card p {
+    font-size: 12px;
+  }
+  .feature__card a {
+    font-size: 13px;
+  }
 }
 @media (min-width: 1200px) {
   .section__a {
@@ -404,5 +482,16 @@ footer .sub_footer .remarks span {
   }
   .section__contact h1 {
     font-size: 26px;
+  }
+
+  .feature__card label {
+    font-size: 17px;
+    margin-bottom: 3%;
+  }
+  .feature__card p {
+    font-size: 13px;
+  }
+  .feature__card a {
+    font-size: 15px;
   }
 }
