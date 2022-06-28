@@ -67,10 +67,40 @@
     height: 200px;
 }
 
+.section__b{
+    background-image: url("../images/banner_a.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height:200px;
+    position: relative;
+
+    &__banner{
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    &__overlay{
+        position: absolute;
+        top:0;
+        right:0;
+        bottom:0;
+        left:0;
+        background: rgb(98 112 114 / 75%);
+    }
+}
+
 @include sm{
     .work-clipart {
         width: 220px;
         height: 220px;
+    }
+
+    .section__b{
+        &__banner{
+            font-size: 21px;
+        }
     }
 }
 
@@ -105,6 +135,13 @@
         width: 200px;
         height: 200px;
     }
+    
+    .section__b{
+        height:210px;
+        &__banner{
+            font-size: 23px;
+        }
+    }
 }
 
 @include lg {
@@ -138,6 +175,13 @@
             font-size: 14px;
         }
     }
+
+    .section__b{
+        height:250px;
+        &__banner{
+            font-size: 29px;
+        }
+    }
 }
 
 @include xl {
@@ -169,6 +213,13 @@
     
         p{
             font-size: 16px;
+        }
+    }
+
+    .section__b{
+        height:300px;
+        &__banner{
+            font-size: 35px;
         }
     }
 }
