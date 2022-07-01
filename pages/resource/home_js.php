@@ -8,7 +8,7 @@
     var txt1 = 'Focus on building your life,';
     var txt2 = 'Let us handle your finances';
 
-    var speed = 50;
+    var speed = 30;
 
     function type_1() {
         if (i1 < txt1.length) {

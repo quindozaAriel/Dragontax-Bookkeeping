@@ -7,7 +7,7 @@
                         <div class="col-md-7 col-lg-6 col-xl-7 z-5 d-flex flex-column justify-content-center align-items-md-start align-items-center">
                             <p class="landing__tagline" id="tagline1"></p>
                             <p class="landing__tagline" id="tagline2"></p>
-                            <button class="landing__btn">Learn More</button>
+                            <a class="landing__btn" href="./our-service">Learn More</a>
                         </div>
                     </div>
                 </div>

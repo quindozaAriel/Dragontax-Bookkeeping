@@ -4,7 +4,7 @@
 <div class="container">
     <div class="row ">
         <div class="col d-flex flex-row justify-content-center p-5">
-            <div class="contact__card">
+            <div class="contact__card" data-aos="fade-up">
                 <div class="container">
                     <div class="row h-100 align-items-center">
                         <div class="col-12 text-center">

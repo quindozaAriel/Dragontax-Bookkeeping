@@ -65,6 +65,67 @@ body {
 .navbar {
   box-shadow: 0 10px 20px 10px rgba(90, 97, 98, 0.1882352941);
   transition: 0.5s;
+  z-index: 599;
+}
+.navbar .active {
+  border-bottom: 2px solid #1f7a85;
+  color: #1f7a85 !important;
+}
+
+.nav-item {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.nav-item:hover {
+  border-bottom: 2px solid #1f7a85;
+}
+
+.popup_nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #e2e7eb;
+  z-index: 1000;
+  display: none;
+}
+.popup_nav .closing {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 40px;
+  margin: 40px 40px;
+  cursor: pointer;
+  z-index: 90;
+}
+.popup_nav ul {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  z-index: 80;
+}
+.popup_nav ul li {
+  list-style: none;
+}
+.popup_nav ul li a {
+  color: #1f7a85;
+  text-align: center;
+  font-size: 1.2rem;
+}
+.popup_nav ul li a:hover {
+  color: #35696e;
 }
 
 footer {
@@ -134,6 +195,10 @@ footer .sub_footer .remarks span {
   footer .footer_bk_logo {
     width: 100%;
   }
+
+  .popup_nav ul li a {
+    font-size: 1.5rem;
+  }
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
   footer .sub_footer .remarks {
@@ -152,24 +217,52 @@ footer .sub_footer .remarks span {
     margin: 0 5px 0 5px;
   }
 }
-.navbar {
-  background: #caecf5 !important;
-  box-shadow: none !important;
-  position: relative !important;
-}
-
 .relative {
   position: relative;
 }
 
 .section__a {
-  background: linear-gradient(180deg, #caecf5, #79b3c7);
+  background: linear-gradient(180deg, #cfeaf3, #96d5d7);
   width: 100%;
   height: auto;
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
+  padding-top: 107.55px;
+}
+
+.geo {
+  background: url("../images/geo.png");
+  opacity: 0.5;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 3;
+}
+
+.dot {
+  background: url("../images/dot.svg");
+  opacity: 0.1;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+}
+
+.noise {
+  background: url("../images/noise.png");
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
 }
 
 .service_heading h1 {
@@ -189,6 +282,8 @@ footer .sub_footer .remarks span {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+  z-index: 10;
+  position: relative;
 }
 
 .works_card {
@@ -322,7 +417,7 @@ footer .sub_footer .remarks span {
   width: 100%;
 }
 .feature__bg {
-  background: #FAF9F7;
+  background: #f1f1f1;
 }
 .feature__img {
   width: 50%;

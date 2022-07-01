@@ -65,6 +65,67 @@ body {
 .navbar {
   box-shadow: 0 10px 20px 10px rgba(90, 97, 98, 0.1882352941);
   transition: 0.5s;
+  z-index: 599;
+}
+.navbar .active {
+  border-bottom: 2px solid #1f7a85;
+  color: #1f7a85 !important;
+}
+
+.nav-item {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.nav-item:hover {
+  border-bottom: 2px solid #1f7a85;
+}
+
+.popup_nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #e2e7eb;
+  z-index: 1000;
+  display: none;
+}
+.popup_nav .closing {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 40px;
+  margin: 40px 40px;
+  cursor: pointer;
+  z-index: 90;
+}
+.popup_nav ul {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  z-index: 80;
+}
+.popup_nav ul li {
+  list-style: none;
+}
+.popup_nav ul li a {
+  color: #1f7a85;
+  text-align: center;
+  font-size: 1.2rem;
+}
+.popup_nav ul li a:hover {
+  color: #35696e;
 }
 
 footer {
@@ -133,6 +194,10 @@ footer .sub_footer .remarks span {
 @media (min-width: 768px) and (max-width: 991.98px) {
   footer .footer_bk_logo {
     width: 100%;
+  }
+
+  .popup_nav ul li a {
+    font-size: 1.5rem;
   }
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
