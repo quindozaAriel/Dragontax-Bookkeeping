@@ -61,7 +61,7 @@
                 <img src="../assets/build/images/feature_a.jpg" alt="Professional Image">
                 <label>Hands-on Professional Support</label>
                 <p class="px-3">You’ll be given a dedicated account holder to support you and help manage your bookkeeping needs.</p>
-                <a href="">Learn more</a>
+                <a href="#feature_professional">Learn more</a>
             </div>
         </div>
         <div class="col-12 col-md-4">
@@ -69,7 +69,7 @@
                 <img src="../assets/build/images/feature_b.jpg" alt="Professional Image">
                 <label>Tax Season Readiness</label>
                 <p class="px-3">Our team of accountants and bookkeepers are experts at taking care of your tax-ready financials. We provide excellent support for your business tax needs.</p>
-                <a href="">Learn more</a>
+                <a href="#feature_tax">Learn more</a>
             </div>
         </div>
         <div class="col-12 col-md-4">
@@ -77,7 +77,7 @@
                 <img src="../assets/build/images/feature_c.jpg" alt="Professional Image">
                 <label>Robust Financial Reporting</label>
                 <p class="px-3">Efficiently manage your business finances with a highly detailed, robust financial report.</p>
-                <a href="">Learn more</a>
+                <a href="#feature_report">Learn more</a>
             </div>
         </div>
     </div>
@@ -94,8 +94,8 @@
     </div>
 </div>
 
-<div class="feature">
-    <div class="container my-5">
+<div class="feature feature__noise" id="feature_professional">
+    <div class="container py-5">
         <div class="row">
             <div class="col-12">
                 <h3 class="text-center">Extensive Professional Service</h3>
@@ -111,7 +111,7 @@
                 </div>
                 <div class="feature__items my-1 my-sm-2 my-md-0 my-lg-1  my-xl-3">
                     <label>Accessible</label>
-                    <p>  Our bookkeeping service is professional, responsive and reliable. We’re happy to guide you on your bookkeeping journey, And if you have questions about your books and records, just send them along!</p>
+                    <p> Our bookkeeping service is professional, responsive and reliable. We’re happy to guide you on your bookkeeping journey, And if you have questions about your books and records, just send them along!</p>
                 </div>
                 <div class="feature__items my-1 my-sm-2 my-md-0 my-lg-1  my-xl-3">
                     <label>Year-round support</label>
@@ -122,8 +122,8 @@
     </div>
 </div>
 
-<div class="feature feature__bg p-3">
-    <div class="container my-5">
+<div class="feature feature__bg p-3" id="feature_tax">
+    <div class="container py-5">
         <div class="row">
             <div class="col-12">
                 <h3 class="text-center">Making your taxes easy</h3>
@@ -153,8 +153,8 @@
     </div>
 </div>
 
-<div class="feature">
-    <div class="container my-5">
+<div class="feature" id="feature_report">
+    <div class="container y-5">
         <div class="row">
             <div class="col-12">
                 <h3 class="text-center">Gain Necessary Business Insights</h3>
@@ -165,7 +165,7 @@
             </div>
             <div class="col-12 col-md-7 col-lg-6 col-xl-6 d-flex align-items-center justify-content-center flex-column p-5  py-lg-4" data-aos="fade-left">
                 <div class="feature__items my-1 my-sm-2 my-md-0 my-lg-1 my-xl-3">
-                <label>Clear financial statements and reports</label>
+                    <label>Clear financial statements and reports</label>
                     <p>Our comprehensive service will give you crystal clear financial statements and reports that show you where your money goes. Get a snapshot of your business finances so you can see where to focus attention, and make changes that help you grow.</p>
                 </div>
                 <div class="feature__items my-1 my-sm-2 my-md-0 my-lg-1  my-xl-3">
