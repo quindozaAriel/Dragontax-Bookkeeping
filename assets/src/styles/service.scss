@@ -142,25 +142,25 @@
     align-items: center;
     flex-direction: column;
 
-    img{
-        width:  80%;
-        border-top:15px solid $main_color;
-        border-left:15px solid $main_color;
+    img {
+        width: 80%;
+        border-top: 15px solid $main_color;
+        border-left: 15px solid $main_color;
         border-top-right-radius: 30px;
         border-bottom-left-radius: 30px;
         margin-bottom: 5%;
         box-shadow: 0 0 20px 10px #80808059;
     }
 
-    label{
+    label {
         text-align: center;
         font-weight: 600;
-        font-size:17px;
+        font-size: 17px;
     }
 
     p {
         text-align: center;
-        font-size:14px;
+        font-size: 14px;
     }
 
     a {
@@ -181,6 +181,35 @@
     }
 }
 
+.feature {
+    &__bg{
+        background:#FAF9F7;
+    }
+    
+    width: 100%;
+    &__img {
+        width: 50%;
+    }
+
+    &__items {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        label {
+            font-weight: 600;
+            font-size: 14px;
+            text-align: center;
+        }
+
+        p {
+            font-size: 13px;
+            text-align: center;
+        }
+    }
+}
+
 @include sm {
     .work-clipart {
         width: 220px;
@@ -194,8 +223,20 @@
     }
 
     .feature__card {
-        img{
-            width:  60%;
+        img {
+            width: 60%;
+        }
+    }
+
+    .feature {
+        &__items {
+            label {
+                font-size: 15px;
+            }
+
+            p {
+                font-size: 14px;
+            }
         }
     }
 }
@@ -250,23 +291,41 @@
     }
 
     .feature__card {
-        img{
+        img {
             width: 80%;
-            border-top:10px solid $main_color;
-            border-left:10px solid $main_color;
+            border-top: 10px solid $main_color;
+            border-left: 10px solid $main_color;
         }
-    
-        label{
-            font-size:16px;
-            margin-bottom:5%;
+
+        label {
+            font-size: 16px;
+            margin-bottom: 5%;
         }
-    
+
         p {
-            font-size:12px;
+            font-size: 12px;
         }
-    
+
         a {
-            font-size:13px;
+            font-size: 13px;
+        }
+    }
+
+    .feature {
+        &__img {
+            width: 100%;
+        }
+
+        &__items {
+            align-items: flex-start;
+            label {
+                font-size: 14px;
+            }
+
+            p {
+                font-size: 13px;
+                text-align: left;
+            }
         }
     }
 }
@@ -320,23 +379,41 @@
             font-size: 26px;
         }
     }
-    
+
     .feature__card {
-        img{
+        img {
             width: 80%;
         }
-    
-        label{
-            font-size:16px;
-            margin-bottom:5%;
+
+        label {
+            font-size: 16px;
+            margin-bottom: 5%;
         }
-    
+
         p {
-            font-size:12px;
+            font-size: 12px;
         }
-    
+
         a {
-            font-size:13px;
+            font-size: 13px;
+        }
+    }
+    
+    .feature {
+        &__img {
+            width: 70%;
+        }
+
+        &__items {
+            align-items: flex-start;
+            label {
+                font-size: 14px;
+            }
+
+            p {
+                font-size: 13px;
+                text-align: left;
+            }
         }
     }
 }
@@ -391,19 +468,36 @@
         }
     }
 
-    .feature__card { 
-    
-        label{
-            font-size:17px;
-            margin-bottom:3%;
+    .feature__card {
+        label {
+            font-size: 17px;
+            margin-bottom: 3%;
         }
-    
+
         p {
-            font-size:13px;
+            font-size: 13px;
         }
-    
+
         a {
-            font-size:15px;
+            font-size: 15px;
+        }
+    }
+
+    .feature {
+        &__img {
+            width: 60%;
+        }
+
+        &__items {
+            align-items: flex-start;
+            label {
+                font-size: 15px;
+            }
+
+            p {
+                font-size: 14px;
+                text-align: left;
+            }
         }
     }
 }

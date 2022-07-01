@@ -93,6 +93,94 @@
         </div>
     </div>
 </div>
+
+<div class="feature">
+    <div class="container my-5">
+        <div class="row">
+            <div class="col-12">
+                <h3 class="text-center">Extensive Professional Service</h3>
+                <p class="text-blue text-center">You will be accompanied by our professionals throughout the service.</p>
+            </div>
+            <div class="col-12 col-md-5 col-lg-6 col-xl-6 d-flex align-items-center justify-content-center">
+                <img class="feature__img mt-5 mt-md-0" src="../assets/build/svgs/support.svg" alt="Feature Clipart" data-aos="fade-up">
+            </div>
+            <div class="col-12 col-md-7 col-lg-6 col-xl-6 d-flex align-items-center justify-content-center flex-column p-5  py-lg-4" data-aos="fade-left">
+                <div class="feature__items my-1 my-sm-2 my-md-0 my-lg-1 my-xl-3">
+                    <label>Reliable Updates</label>
+                    <p> We’ll reach out with bookkeeping updates, including your monthly balance report and record-keeping documents. Have questions? We're always available for support.</p>
+                </div>
+                <div class="feature__items my-1 my-sm-2 my-md-0 my-lg-1  my-xl-3">
+                    <label>Accessible</label>
+                    <p>  Our bookkeeping service is professional, responsive and reliable. We’re happy to guide you on your bookkeeping journey, And if you have questions about your books and records, just send them along!</p>
+                </div>
+                <div class="feature__items my-1 my-sm-2 my-md-0 my-lg-1  my-xl-3">
+                    <label>Year-round support</label>
+                    <p>We know that having complex questions for your business is a season in a business. That’s why our team of experts is ready to help you at any time. We’re here to answer questions and make sure you take advantage of the best small business advice around.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="feature feature__bg p-3">
+    <div class="container my-5">
+        <div class="row">
+            <div class="col-12">
+                <h3 class="text-center">Making your taxes easy</h3>
+                <p class="text-blue text-center">We help you keep track on your finances andyou don’t have to worry about filing anything each year.</p>
+            </div>
+            <div class="col-12 d-flex d-sm-flex d-md-none d-lg-none d-xl-none col-md-5 col-lg-6 col-xl-6 d-flex align-items-center justify-content-center">
+                <img class="feature__img mt-5 mt-md-0" src="../assets/build/svgs/tax.svg" alt="Feature Clipart" data-aos="fade-up">
+            </div>
+            <div class="col-12 col-md-7 col-lg-6 col-xl-6 d-flex align-items-center justify-content-center flex-column p-5 py-lg-4" data-aos="fade-right">
+                <div class="feature__items my-1 my-sm-2 my-md-0 my-lg-1 my-xl-3">
+                    <label>Year-round tax support</label>
+                    <p> Whether you’re preparing for an upcoming tax season or making sure your business runs efficiently year-round, our team of experts will be there to help. We offer tax advisory support through our plans and we’ll make a custom tax plan that works for your business.</p>
+                </div>
+                <div class="feature__items my-1 my-sm-2 my-md-0 my-lg-1  my-xl-3">
+                    <label>Precise tax financials</label>
+                    <p> We’ll handle your tax time financials, so you can get filed fast. When you start a conversation with us, we’ll ask some of the most important questions: how we can help? What are your financial goals this year? We’ll provide tailored recommendations and create a custom plan just for you.</p>
+                </div>
+                <div class="feature__items my-1 my-sm-2 my-md-0 my-lg-1  my-xl-3">
+                    <label>Worry-free Tax</label>
+                    <p> Ready to get you filed before the deadline hits? Our service will be worry free from tax, and we promise to give your company a professional and fast end-to-end solution.</p>
+                </div>
+            </div>
+            <div class="d-none d-sm-none d-md-flex d-lg-flex d-xl-flex col-md-5 col-lg-6 col-xl-6 align-items-center justify-content-center">
+                <img class="feature__img mt-5 mt-md-0" src="../assets/build/svgs/tax.svg" alt="Feature Clipart" data-aos="fade-up">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="feature">
+    <div class="container my-5">
+        <div class="row">
+            <div class="col-12">
+                <h3 class="text-center">Gain Necessary Business Insights</h3>
+                <p class="text-blue text-center">We help you gain necessary business insights.</p>
+            </div>
+            <div class="col-12 col-md-5 col-lg-6 col-xl-6 d-flex align-items-center justify-content-center">
+                <img class="feature__img mt-5 mt-md-0" src="../assets/build/svgs/report.svg" alt="Feature Clipart" data-aos="fade-up">
+            </div>
+            <div class="col-12 col-md-7 col-lg-6 col-xl-6 d-flex align-items-center justify-content-center flex-column p-5  py-lg-4" data-aos="fade-left">
+                <div class="feature__items my-1 my-sm-2 my-md-0 my-lg-1 my-xl-3">
+                <label>Clear financial statements and reports</label>
+                    <p>Our comprehensive service will give you crystal clear financial statements and reports that show you where your money goes. Get a snapshot of your business finances so you can see where to focus attention, and make changes that help you grow.</p>
+                </div>
+                <div class="feature__items my-1 my-sm-2 my-md-0 my-lg-1  my-xl-3">
+                    <label>Accessible Reports</label>
+                    <p>Do you need to know where your money is going? Do you need to know where you stand financially? It's never been easier. We got you accessible financial statements and reports through the service.</p>
+                </div>
+                <div class="feature__items my-1 my-sm-2 my-md-0 my-lg-1  my-xl-3">
+                    <label>Reliable and Secure Software</label>
+                    <p> We create reliable, trusted and secure financial reports to save you time and money. QuickBooks is our accounting software of choice, we have years of experience working with it, one of the most trusted accounting software programs available.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 <div class="section__contact">
     <div class="section__contact__overlay z-1"></div>
     <div class="container">
