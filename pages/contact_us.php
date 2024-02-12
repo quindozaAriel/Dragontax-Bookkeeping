@@ -17,10 +17,8 @@
                                 <div class="row">
                                     <div class="col-12 col-sm-6 d-flex flex-column align-items-center  mb-3 ">
                                         <span class="contact-icon" ><i class="fa fa-phone"></i></span>
-                                        <b class="mt-2 text-blue" >San Mateo</b>
+                                        <b class="mt-2 text-blue">Contat Number</b>
                                         <a class="text-black mb-2" id="tel" href="tel:6503452604">(650) 345-2604</a>
-                                        <b class="text-blue">San Francisco</b>
-                                        <a class="text-black" href="tel:4158412725">(415) 841-2725</a>
                                     </div>
                                     <div class="col-12 col-sm-5 d-flex flex-column align-items-center mb-3 ">
                                         <span class="contact-icon"><i class="fa fa-envelope"></i></span>
