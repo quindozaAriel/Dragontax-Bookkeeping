@@ -30,7 +30,7 @@
                            </a>
                        </center>
                        <div class="remarks">
-                           <span>COPYRIGHT © 2022</span>
+                           <span>COPYRIGHT © 2024</span>
                            <span>ALL RIGHTS RESERVED</span>
                            <span>PRIVACY POLICY</span>
                            <span>TERMS OF USE</span>
